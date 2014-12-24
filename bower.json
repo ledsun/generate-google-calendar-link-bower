@@ -1,0 +1,25 @@
+{
+  "name": "generate-google-calendar-link",
+  "main": "[index.js, index.css, calendar_add.png]",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ledsun/generate-google-calendar-link",
+  "authors": [
+    "ledsun"
+  ],
+  "description": "Genelate a link to add a new event to the Google Calendar.",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "google",
+    "calendar"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

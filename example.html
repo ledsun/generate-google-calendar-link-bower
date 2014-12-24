@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="index.css">
+<div id="result"></div>
+<script src="index.js"></script>
+<script>
+var a = generateLink({
+    start: new Date(2014, 10, 15, 10),
+    end: new Date(2014, 10, 15, 18),
+    title: 'New event',
+    location: 'Some where',
+    details: 'http://event.description.example.com/11234'
+})
+
+document.getElementById('result').appendChild(a)
+</script>

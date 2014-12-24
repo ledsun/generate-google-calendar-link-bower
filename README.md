@@ -80,13 +80,14 @@ npm run browser
 
 ### Deploy
 
-Update `package.json`.
+Update verion in `bower.json`.
 
-`package.json`を更新します。
+`bower.json`内のversionを更新します。
 
 ```
-npm install
-npm run build
-npm test
-npm publish
+git add bower.json
+git commit -m 'Release vX.X.X'
+git tag 'vX.X.X'
+git push origin master
+git push origin 'vX.X.X'
 ```

@@ -6,6 +6,13 @@
   "bugs": {
     "url": "https://github.com/ledsun/generate-google-calendar-link-bower/issues"
   },
+  "dependencies": {
+    "generate-google-calendar-link": "0.0.2",
+    "global": "^4.3.0"
+  },
+  "devDependencies": {
+    "browserify": "^7.1.0"
+  },
   "homepage": "https://github.com/ledsun/generate-google-calendar-link-bower",
   "keywords": [
     "google",
@@ -22,14 +29,7 @@
     "url": "https://github.com/ledsun/generate-google-calendar-link-bower.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify src/generate-google-calendar-link.js -o index.js"
-  },
-  "dependencies": {
-    "generate-google-calendar-link": "0.0.2",
-    "global": "^4.3.0"
-  },
-  "devDependencies": {
-    "browserify": "^7.1.0"
+    "build": "browserify src/generate-google-calendar-link.js -o index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

@@ -4,8 +4,6 @@ A bower package of [generate-google-calendar-link](https://github.com/ledsun/gen
 
 [generate-google-calendar-link](https://github.com/ledsun/generate-google-calendar-link)のbowerパッケージです。
 
-[![Build Status](https://travis-ci.org/ledsun/generate-google-calendar-link.svg)](https://travis-ci.org/ledsun/generate-google-calendar-link-bower)
-
 ## Desciption
 
 [Browserify](http://browserify.org/) [generate-google-calendar-link](https://github.com/ledsun/generate-google-calendar-link) to publish a bower package,

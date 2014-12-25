@@ -6,32 +6,6 @@ A bower package of [generate-google-calendar-link](https://github.com/ledsun/gen
 
 [![Build Status](https://travis-ci.org/ledsun/generate-google-calendar-link.svg)](https://travis-ci.org/ledsun/generate-google-calendar-link-bower)
 
-[![Sauce Test Status](https://saucelabs.com/browser-matrix/generate-google-calendar-link.svg)](https://saucelabs.com/u/generate-google-calendar-link-bower)
-
-## Setup
-
-```
-bower install generate-google-calendar-link
-```
-
-htmlにscriptタグを埋め込みます。
-```html
-<link rel="stylesheet" href="bower_components/generate-google-calendar-link/index.css">
-<div id="result"></div>
-<script src="bower_components/generate-google-calendar-link/index.js"></script>
-<script>
-var a = generateLink({
-    start: new Date(2014, 10, 15, 10),
-    end: new Date(2014, 10, 15, 18),
-    title: 'New event',
-    location: 'Some where',
-    details: 'http://event.description.example.com/11234'
-})
-
-document.getElementById('result').appendChild(a)
-</script>
-```
-
 ## Contributing
 
 contributeするには
@@ -58,8 +32,7 @@ The main function in `src/generate-google-calendar-link.js`.
 
 `src/generate-google-calendar-link.js`を[browserify](http://browserify.org/)使って変換します。
 
-### Testing
-#### browser
+### Test
 
 Open `example.html` to check `index.js` is loadable by a browser.
 
@@ -67,15 +40,6 @@ Open `example.html` to check `index.js` is loadable by a browser.
 
 ```
 open example.js
-```
-
-
-[zuul](https://github.com/defunctzombie/zuul) is used to check `index.js` works in corss borwsers.
-
-クロスブラウザで動作するか確認するには、[zuul](https://github.com/defunctzombie/zuul)を使います。
-
-```
-npm run browser
 ```
 
 ### Deploy

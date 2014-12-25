@@ -6,6 +6,14 @@ A bower package of [generate-google-calendar-link](https://github.com/ledsun/gen
 
 [![Build Status](https://travis-ci.org/ledsun/generate-google-calendar-link.svg)](https://travis-ci.org/ledsun/generate-google-calendar-link-bower)
 
+## Desciption
+
+[Browserify](http://browserify.org/) [generate-google-calendar-link](https://github.com/ledsun/generate-google-calendar-link) to publish a bower package,
+because [hyperscript](https://github.com/dominictarr/hyperscript) is not export a glabal object that is dependant libraries of [generate-google-calendar-link](https://github.com/ledsun/generate-google-calendar-link). 
+
+[generate-google-calendar-link](https://github.com/ledsun/generate-google-calendar-link)が依存している[hyperscript](https://github.com/dominictarr/hyperscript)はglobalオブジェクトを公開しません。 [generate-google-calendar-link](https://github.com/ledsun/generate-google-calendar-link)を[browserify](http://browserify.org/)で変換してbower packageとして公開します。
+
+
 ## Contributing
 
 contributeするには
